@@ -79,4 +79,78 @@ The initial data cleaning and preparation were carried out using Microsoft Excel
 - Journey Duration Calculation: Calculated journey duration using the departure and arrival times.
 - Route Creation: Concatenated departure and arrival stations to form a 'Route' column.
 After the initial cleaning in Excel, the data was uploaded to Power BI for further transformation and analysis. Additional data shaping and cleaning steps were performed using the Power Query Editor in Power BI.
+Data Model
+After the initial cleaning in Excel, the data was uploaded to Power BI for further transformation, modeling, and analysis. In Power BI:
 
+**Data Model Creation:** A new date table was created and linked to the main railway table to enable time-based analysis.
+Measures: The following measures were created for detailed analysis:
+- Total Revenue: Calculated by summing up the price column.
+- Average Ticket Price: Calculated as the average of the price column.
+- Delay Duration: Calculated by the difference between actual arrival time and scheduled arrival time.
+- Route Count: Counted the occurrences of each unique route
+
+## Data Analysis & Visualization
+After completing the data cleaning and preparation, I proceeded with the analysis and visualization phase. To ensure easy navigation and understanding of the project, I divided the visualizations into six main sections. These sections were used to effectively visualize key insights from this analysis.
+
+**Key Insights from the Data Visualization**
+**Overview**
+The overview section indicates that a total revenue of £742,000 was generated from 32,000 journeys. The majority of journeys (87%) were on time, while 7% were delayed, and 6% were canceled. The data highlights the primary routes experiencing delays and cancellations, as well as the ticket classes and purchase types contributing to the overall revenue.
+
+**Total Revenue Analysis**
+- By Year and Month: January 2024 had the highest revenue at £200K, followed by a dip in February to £159K, with a recovery in March (£195K) and April (£188K). This fluctuation suggests possible seasonal variations or operational changes affecting monthly revenues.
+- By Purchase Type: Online purchases accounted for £383K, while station purchases contributed £359K. This trend highlights the increasing preference for digital ticketing.
+  
+**Journey Status Analysis**
+- On Time: 87%
+- Delayed: 7%
+- Cancelled: 6%
+Most journeys are on time, but efforts can be made to reduce the percentage of delayed and canceled journeys.
+
+**Delay Analysis**
+**Top 5 Routes Encountering Delays:**
+- Liverpool Lime Street to London Euston: 19.8 delays
+- Manchester Piccadilly to Liverpool Lime Street: 16.5 delays
+- London Euston to Birmingham New Street: 9.2 delays
+- Manchester Piccadilly to Leeds: 6.4 delays
+- Manchester Piccadilly to London Euston: 4.0 delays
+**Delay Duration by Reasons:**
+- Weather: 24.6
+- Signal Failure: 16.2
+- Staff Shortage: 9.5
+- Technical Issue: 8.2
+- Weather Condition: 3.6
+- Staffing: 3.1
+- Traffic: 2.0
+The data points out the major routes and reasons for delays, suggesting areas for operational improvements.
+
+**Revenue by Ticket Class**
+- Standard Class: £593K
+- First Class: £149K
+- Standard Class generates the most revenue, indicating higher demand for more affordable travel options.
+  
+## Recommendations
+Based on the analysis and key insights derived from this project, the following recommendations can help drive improvements and increase revenue for National Rail in 2024:
+
+**1. Optimize Online Sales Promotions:**
+- Continue to promote online ticket purchases, as they contribute significantly to the revenue. Offering discounts or incentives for online purchases can further boost sales.
+
+**2. Address Operational Inefficiencies:**
+- Focus on the routes with the highest delays and cancellations. Implementing measures to address weather impacts and signal failures could improve on-time performance.
+  
+**3. Enhance Customer Experience:**
+- Improve services during peak travel times to manage the high volume of passengers effectively. This could include better resource allocation and scheduling adjustments.
+  
+**4. Promote Advance Ticket Sales:**
+- Since advance tickets generate the highest revenue, creating promotional campaigns encouraging early bookings can lead to more stable revenue streams.
+  
+**5. Regional Marketing Efforts:**
+- Target regions with high growth potential for marketing efforts. For example, the success in online ticket sales suggests a digital marketing focus might yield good results.
+  
+**6. Reduce Delay Causes:**
+- Prioritize resolving issues related to weather, signal failures, and staff shortages, as these are the leading causes of delays. Proactive measures can enhance reliability.
+  
+**7. Adapt to Travel Trends:**
+- Monitor travel trends and adjust services accordingly. For instance, increasing capacity on popular routes or times can meet demand more efficiently.
+  
+## Conclusion
+The analysis provides a comprehensive understanding of the current performance and operational challenges faced by National Rail. By implementing the recommendations, National Rail can optimize its operations, enhance customer satisfaction, and increase revenue in 2024.
