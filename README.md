@@ -62,3 +62,21 @@ The dataset provided for this project contains mock train ticket sales data for 
 ## Project Workflow
 A Project Workflow provides a good structure for every data analytics project. It helps to establish a clear roadmap of sequential steps from the initial problem to the final insights. This keeps the project organized and aligned with goals. It also outlines tasks within each project phase, preventing important elements from being overlooked and making the process more efficient. The workflow for this project is shown below:
 
+![project workflow](https://github.com/Debbiefolorunsho/National-Rail-Ticket-Sales-Analysis/blob/main/Project%20Workflow.png?raw=true)
+
+## 1.  Project Objective
+The main objective of this project is to analyze National Rail's ticket sales data from December 2023 to April 2024 to provide meaningful insights into the most popular routes, peak travel times, revenue analysis by ticket types and classes, and on-time performance. This analysis aims to help National Rail improve operational efficiency and enhance passenger experience.
+
+## 2.  Data Collection
+The dataset used for this project includes mock train ticket sales data for National Rail in the UK, covering the period from January to April 2024. The data encompasses various attributes related to each ticket purchase and journey, including Transaction ID, date and time of purchase, purchase type and method, railcard information, ticket type and class, price, departure and arrival stations, journey dates and times, actual arrival time, journey status, reason for delay, and refund requests.
+
+## 3.  Data Cleaning and Preparation
+The initial data cleaning and preparation were carried out using Microsoft Excel:
+
+- Removal of Duplicates: Ensured uniqueness in the Transaction ID column.
+- Removal of Unwanted Columns: Eliminated unnecessary columns to streamline the analysis.
+- Removal of Blank Rows: Removed rows with missing values to ensure data completeness.
+- Journey Duration Calculation: Calculated journey duration using the departure and arrival times.
+- Route Creation: Concatenated departure and arrival stations to form a 'Route' column.
+After the initial cleaning in Excel, the data was uploaded to Power BI for further transformation and analysis. Additional data shaping and cleaning steps were performed using the Power Query Editor in Power BI.
+
