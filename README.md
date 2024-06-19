@@ -41,3 +41,24 @@ The dataset provided for this project contains mock train ticket sales data for 
 - Refund Request: Indicates whether a refund was requested for the journey.
 - Route: Created by concatenating the Departure Station and Arrival Destination to represent the travel route.
 - Journey Duration: The duration of the journey, calculated as the difference between Departure Time and Arrival Time.
+
+## Tools and Technology Used
+
+1. **Microsoft Excel:**
+- Data Cleaning: Removed duplicates, unwanted columns, and blank rows.
+- Data Transformation: Calculated journey duration, concatenated departure and arrival stations to form routes.
+- Data Preparation: Ensured data consistency and accuracy before importing into Power BI.
+  
+2. **Power BI:**
+- Data Modeling: Imported cleaned data from Excel, created relationships between tables, and built calculated columns and measures.
+- Data Visualization: Designed interactive dashboards with various visualizations such as bar charts, column charts, line charts, and pie charts.
+- Slicers and Filters: Added slicers for ticket class, ticket type, and date of journey to enable dynamic filtering of the data.
+- Insight Generation: Developed insights on popular routes, peak travel times, revenue analysis, and on-time performance.
+  
+3. **Power Query Editor:**
+- Data Transformation: Applied additional data transformations and cleaning steps within Power BI to refine the dataset.
+- Advanced Filtering: Implemented complex filtering and data shaping techniques to prepare the data for visualization.
+
+## Project Workflow
+A Project Workflow provides a good structure for every data analytics project. It helps to establish a clear roadmap of sequential steps from the initial problem to the final insights. This keeps the project organized and aligned with goals. It also outlines tasks within each project phase, preventing important elements from being overlooked and making the process more efficient. The workflow for this project is shown below:
+
