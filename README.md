@@ -111,6 +111,8 @@ The overview section indicates that a total revenue of £742,000 was generated f
   
 Most journeys are on time, but efforts can be made to reduce the percentage of delayed and canceled journeys.
 
+![national rail dashboard 2](https://github.com/Debbiefolorunsho/National-Rail-Ticket-Sales-Analysis/blob/main/National%20rail%202.jpg?raw=true)
+
 **Delay Analysis**
 
 **Top 5 Routes Encountering Delays:**
