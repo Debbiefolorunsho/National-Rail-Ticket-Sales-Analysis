@@ -93,6 +93,7 @@ Measures: The following measures were created for detailed analysis:
 After completing the data cleaning and preparation, I proceeded with the analysis and visualization phase. To ensure easy navigation and understanding of the project, I divided the visualizations into six main sections. These sections were used to effectively visualize key insights from this analysis.
 
 **Key Insights from the Data Visualization**
+
 **Overview**
 The overview section indicates that a total revenue of £742,000 was generated from 32,000 journeys. The majority of journeys (87%) were on time, while 7% were delayed, and 6% were canceled. The data highlights the primary routes experiencing delays and cancellations, as well as the ticket classes and purchase types contributing to the overall revenue.
 
@@ -104,15 +105,18 @@ The overview section indicates that a total revenue of £742,000 was generated f
 - On Time: 87%
 - Delayed: 7%
 - Cancelled: 6%
+  
 Most journeys are on time, but efforts can be made to reduce the percentage of delayed and canceled journeys.
 
 **Delay Analysis**
+
 **Top 5 Routes Encountering Delays:**
 - Liverpool Lime Street to London Euston: 19.8 delays
 - Manchester Piccadilly to Liverpool Lime Street: 16.5 delays
 - London Euston to Birmingham New Street: 9.2 delays
 - Manchester Piccadilly to Leeds: 6.4 delays
 - Manchester Piccadilly to London Euston: 4.0 delays
+  
 **Delay Duration by Reasons:**
 - Weather: 24.6
 - Signal Failure: 16.2
@@ -121,6 +125,7 @@ Most journeys are on time, but efforts can be made to reduce the percentage of d
 - Weather Condition: 3.6
 - Staffing: 3.1
 - Traffic: 2.0
+  
 The data points out the major routes and reasons for delays, suggesting areas for operational improvements.
 
 **Revenue by Ticket Class**
