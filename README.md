@@ -94,7 +94,10 @@ After completing the data cleaning and preparation, I proceeded with the analysi
 
 **Key Insights from the Data Visualization**
 
-**Overview**
+![national rail dashboard 1](https://github.com/Debbiefolorunsho/National-Rail-Ticket-Sales-Analysis/blob/main/National%20rail%201.jpg?raw=true)
+
+**Overview:**
+
 The overview section indicates that a total revenue of £742,000 was generated from 32,000 journeys. The majority of journeys (87%) were on time, while 7% were delayed, and 6% were canceled. The data highlights the primary routes experiencing delays and cancellations, as well as the ticket classes and purchase types contributing to the overall revenue.
 
 **Total Revenue Analysis**
