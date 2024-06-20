@@ -1,5 +1,5 @@
 # National-Rail-Ticket-Sales-Analysis
-This repository contains a Power BI project analyzing National Rail's ticket sales data from December 2023 to April 2024. The dashboard provides insights into popular routes, peak travel times, revenue by ticket type and class, and on-time performance, helping National Rail make data-driven decisions. 
+This repository contains a Power BI project analyzing National Rail's ticket sales data from December 2023 to April 2024 sourced from [Maven Analytics](https://mavenanalytics.io/challenges) The dashboard provides insights into popular routes, peak travel times, revenue by ticket type and class, and on-time performance, helping National Rail make data-driven decisions. 
 
 ## Project Background
 The National Rail Ticket Sales Analysis project was developed to provide valuable insights into the ticket sales and operational performance of National Rail, a major provider of passenger train services in England, Scotland, and Wales. The dataset sourced from Maven Analytics, covering the period from December 2023 to April 2024, includes key information such as transaction details, ticket types, journey times, and reasons for delays.
