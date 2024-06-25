@@ -4,6 +4,8 @@ This repository contains a Power BI project analyzing National Rail's ticket sal
 ## Project Background
 The National Rail Ticket Sales Analysis project was developed to provide valuable insights into the ticket sales and operational performance of National Rail, a major provider of passenger train services in England, Scotland, and Wales. The dataset sourced from Maven Analytics, covering the period from December 2023 to April 2024, includes key information such as transaction details, ticket types, journey times, and reasons for delays.
 
+[Click on this to interact with my dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGYyY2QzZjUtOTlkYy00ZThhLThlM2ItNDQ4OGI0ZmQwZGViIiwidCI6IjFkZDZlZmUxLTk4MDctNGM1Yy04NzJiLWJmZDExZDIyNGEzMSJ9)
+
 ## Business Objectives
 - Identify Popular Routes: Determine which routes are most frequently traveled to optimize scheduling and resource allocation.
 - Determine Peak Travel Times: Analyze travel data to identify peak times, aiding in capacity management and service planning.
