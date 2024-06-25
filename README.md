@@ -90,7 +90,7 @@ Measures: The following measures were created for detailed analysis:
 - Route Count: Counted the occurrences of each unique route
 
 ## Data Analysis & Visualization
-After completing the data cleaning and preparation, I proceeded with the analysis and visualization phase. To ensure easy navigation and understanding of the project, I divided the visualizations into six main sections. These sections were used to effectively visualize key insights from this analysis.
+After completing the data cleaning and preparation, I proceeded with the analysis and visualization phase. 
 
 **Key Insights from the Data Visualization**
 
